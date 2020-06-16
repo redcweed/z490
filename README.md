@@ -29,8 +29,8 @@ OpenCore-based EFI
 # Odd items:
 - AAPL: [EB|#LOG:EXITBS:START] error on startup until leveraged a boot patch included in the config.plist
 
-# Other notes:
-- Ram is unstable when clocked to 3333Mhz (3200 XMP works though)
+# Other notes (mostly hardware-specific notes to self):
+- 3200Mhz rated ram is unstable when clocked to 3333Mhz (3200 XMP works though)
 - i7-10700 CPU clocked with power limits removed reaches 72C @ 75F ambient during R20 with score of 4826
 - Clocking the CPU to 102.9Mhz yields slightly higher speed for CPU and ram (around 3300Mhz) and appears to also run stable
 - RX590 works without any special setup and runs relatively cool at around 50-50C at idle
