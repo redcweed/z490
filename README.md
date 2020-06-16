@@ -31,7 +31,7 @@ OpenCore-based EFI
 
 # Other notes:
 - Ram is unstable when clocked to 3333Mhz (3200 XMP works though)
-- i7-10700 CPU clocked with power limits removed reaches 72C during R20 with score of 4826
+- i7-10700 CPU clocked with power limits removed reaches 72C @ 75F ambient during R20 with score of 4826
 - Clocking the CPU to 102.9Mhz yields slightly higher speed for CPU and ram (around 3300Mhz) and appears to also run stable
 - RX590 works without any special setup and runs relatively cool at around 50-50C at idle
 - CPU at idle runs around 30-40C @ 70-80F ambient
