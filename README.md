@@ -9,7 +9,38 @@ OpenCore-based EFI
 - Patriot Viper 4 Blackout 16 GB (8x2)
 
 # BIOS Settings:
-- To be finalized
+- Above 4GB MMIO BIOS Assignment: Enabled
+- Internal Graphics: Enabled
+- Fast Boot: Disabled
+- Secure Boot Mode: Standard
+- Wake Up Event By: OS
+- Above 4G memory/Crypto Currency mining: Enabled
+- IGD Multi-Monitor: Enabled
+- Extreme Memory Profile(XMP): Enabled
+- Intel Virtualization Tech: Disabled
+- CFG Lock: Disabled
+(Below are my system specific and can be ignored)
+- Long Duration Power Limit: 95
+- Short Duration Power Limit: 95
+- CPU Fan1 type: PWM
+- level 1 T: 30
+- level 2 T: 50
+- level 3 T: 60
+- level 4 T: 75
+- level 1 S: 38
+- level 2 S: 65
+- level 3 S: 90
+- level 4 S: 100
+- SYS Fan1 Smart Fan Control: ENabled
+- SYS Fan1 type: PWM
+- level 1 T: 30
+- level 2 T: 50
+- level 3 T: 60
+- level 4 T: 70
+- level 1 S: 50
+- level 2 S: 68
+- level 3 S: 90
+- level 4 S: 100
 
 # What Works:
 - Sleep/Wake
