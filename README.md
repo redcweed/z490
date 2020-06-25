@@ -46,7 +46,7 @@ OpenCore-based EFI
 - Sleep/Wake
 - Shutdown
 - Onboard Bluetooth
-- 2.5G Ethernet (must use attached patched kext)
+- 2.5G Ethernet (must use attached patched kext) (must force select a speed -- which you need to do by going to System Preferences -> Network -> Ethernet -> Advanced -> Hardware -> Speed: (select 1000baset if you are using a 1000t bridge/router))
 - Sound (via VoodooHDA kext for back panel, front panel, and HDMI output)
 - iMessage
 - Continuity/Handoff
